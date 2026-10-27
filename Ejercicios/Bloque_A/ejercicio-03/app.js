@@ -17,7 +17,7 @@ const persona = {
 
     // Metodo Intg
     cantar() {
-        return `Canta la cÃ³lera de ${this.nombre}, aquel quien soy yo`;
+        return `Canta la colera de ${this.nombre}, aquel quien soy yo`;
     }
 };
 

@@ -1,8 +1,8 @@
-﻿// 4. Entrada de dos nÃºmeros y cÃ¡lculo de la suma
+﻿// 4. Entrada de dos numeros y calculo de la suma
 
 // Entrada de datos
-const entrada1 = prompt("Esc el 1er nÃºmero:"); // Prompt: Peticion al us
-const entrada2 = prompt("Esc el 2do nÃºmero:");
+const entrada1 = prompt("Esc el 1er numero:"); // Prompt: Peticion al us
+const entrada2 = prompt("Esc el 2do numero:");
 
 // Desyuncion en caso de null
 if (entrada1 === null || entrada2 === null) { // Compara valores sin convertir sus tipos

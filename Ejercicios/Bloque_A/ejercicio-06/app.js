@@ -1,4 +1,4 @@
-﻿/* 6. Obtener un nÃºmero desde un input del DOM y mostrar el resultado mediante un evento click */
+﻿/* 6. Obtener un numero desde un input del DOM y mostrar el resultado mediante un evento click */
 
 // Seleccionar los elementos del HTML
 const entrada = document.getElementById("entrando");

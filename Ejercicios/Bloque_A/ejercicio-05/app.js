@@ -1,4 +1,4 @@
-﻿/* 5. Determinar si un nÃºmero es par o impar mediante el operador mÃ³dulo */
+﻿/* 5. Determinar si un numero es par o impar mediante el operador % */
 
 // Entrada
 const entrada = prompt("Esc un #:");

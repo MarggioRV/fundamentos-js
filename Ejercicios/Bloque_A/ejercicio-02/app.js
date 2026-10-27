@@ -1,4 +1,4 @@
-﻿/* 2. Array de 100 nÃºmeros aleatorios, console.table() y filtrado por intervalo */
+﻿/* 2. Array de 100 numeros aleatorios, console.table() y filtrado por intervalo */
 const nums = [];
 
 // Bucle para rellenar

@@ -1,4 +1,4 @@
-﻿/* 1. Variables de varios tipos, tipos de datos y mÃ©todos de Console */
+﻿/* 1. Variables de varios tipos, tipos de datos y métodos de Console */
 // Const, invariables. Let, mutables y estacionales
 const texto = "Hola Mundo";
 const num = 26;
@@ -24,7 +24,7 @@ const objeto = {
 //Impresiones x consola
 console.log("Texto:", texto, typeof texto);
 console.log("");
-console.log("NÃºmero:", num, typeof num);
+console.log(num, num, typeof num);
 console.log("");
 console.log("Booleano:", boooleano, typeof boooleano);
 console.log("");
@@ -40,7 +40,7 @@ console.log(objeto);
 console.log("");
 console.info("Info_ejercicio");
 console.log("");
-console.debug("Mensaje_depuraciÃ³n");
+console.debug("Mensaje_depuración");
 console.log("");
 /* console.error("Error");  *///Lanza delineado_error
 console.log("");
@@ -48,5 +48,4 @@ console.log("SMS en caso de error:");
 console.assert(boooleano, texto);
 console.log("");
 alert("Error: " + texto);
-
 
