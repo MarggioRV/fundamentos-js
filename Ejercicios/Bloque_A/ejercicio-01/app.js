@@ -24,7 +24,7 @@ const objeto = {
 //Impresiones x consola
 console.log("Texto:", texto, typeof texto);
 console.log("");
-console.log(num, num, typeof num);
+console.log("numero:", num, typeof num);
 console.log("");
 console.log("Booleano:", boooleano, typeof boooleano);
 console.log("");
