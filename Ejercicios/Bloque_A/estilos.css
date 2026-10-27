@@ -1,0 +1,172 @@
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    /* background: linear-gradient(135deg, #f5f3ff, #e9d5ff); */
+    background-color: #9b8fd7;
+    color: 2e2142;
+}
+
+/* 3. Contenedor principal con Flexbox */
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 20px;
+}
+
+/* 4. Caja principal */
+
+.calculadora {
+    width: 90%;
+    /* max-width: 460px; */
+    padding: 36px;
+    background-color: white;
+    border: 1px solid #ddd6fe;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(76, 29, 149, 0.12);
+}
+
+/* 5. Etiqueta del ejercicio */
+
+.ejer-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #ede9fe;
+    color: #3b1764;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* 6. Título y descripción */
+
+h1 {
+    margin-bottom: 12px;
+    color: var(--purple-dark);
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+/* 7. Formulario */
+
+#number-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    color: #2e2142;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid  #ddd6fe;
+    border-radius: 12px;
+    outline: none;
+    background-color: #faf9ff;
+    color: var(--text-main);
+    font: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.13);
+}
+
+/* 8. Botones */
+
+.area_botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 5px;
+    background:#7c3aed;
+    color: white;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-radius 0.2s ease-in-out;
+    min-width: 0;
+    flex: 1;
+}
+
+button:hover {
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.25);
+}
+
+button:focus-visible {
+    outline: 3px solid #c4b5fd;
+    outline-offset: 4px;
+}
+
+button:active {
+    background-color: #4c1d95;
+}
+
+/* 9. Caja del resultado */
+
+.resultadoCont {
+    margin-top: 24px;
+    padding: 18px;
+    border: 1px solid #ddd6fe;
+    border-radius: 12px;
+    background-color: #faf9ff;
+    color: #756783;
+    text-align: center;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+/* Estados del resultado */
+
+.resultadoCont.correcto {
+    border-color: #86efac;
+    background-color: #dcfce7;
+    color: #166534;
+    font-weight: 700;
+}
+
+.resultadoCont.error {
+    border-color: #fda4af;
+    background-color: #ffe4e6;
+    color: #9f1239;
+    font-weight: 600;
+}
+
+ 
+/* Para gifs */
+
+img {
+    width: 12%;
+    height: auto;
+}
