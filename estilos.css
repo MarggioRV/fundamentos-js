@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #302344;
+    line-height: 1.6;
+}
+
+.cabecera {
+    background: linear-gradient(135deg, #2e1065, #6b21a8, #9333ea);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.contenido-cabecera {
+    max-width: 800px;
+    margin: auto;
+}
+
+.cabecera h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 15px;
+}
+
+.cabecera p {
+    color: #e9d5ff;
+    font-size: 1.1rem;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 55px auto;
+    padding: 0 25px;
+}
+
+.introduccion {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.introduccion h2 {
+    font-size: 2rem;
+    color: #581c87;
+    margin-bottom: 10px;
+}
+
+.introduccion p {
+    color: #78658d;
+}
+
+.bloque {
+    margin-bottom: 60px;
+}
+
+.titulo-bloque {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.numero-bloque {
+    background: #6b21a8;
+    color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 5px 15px #6b21a833;
+}
+
+.titulo-bloque h2 {
+    color: #581c87;
+    font-size: 1.6rem;
+}
+
+.titulo-bloque p {
+    color: #8b7a9c;
+    font-size: 0.9rem;
+}
+
+.rejilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 18px;
+}
+
+.tarjeta {
+    background: #581c87;
+    border: 1px solid #e9d5ff;
+    border-radius: 6px;
+    padding: 22px;
+    text-decoration: none;
+    color: #302344;
+    transition: all 0.25s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    border-color: #9333ea;
+    box-shadow: 0 10px 25px #6b21a822;
+}
+
+.numero {
+    display: inline-block;
+    background: #f3e8ff;
+    color: #9333ea;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+    color: #d29fd6;
+}
+
+.abrir {
+    color: #b163ff;
+    font-size: 0.85rem;
+    font-weight: 650;
+}
+
+footer {
+    background: #2e1065;
+    color: #e9d5ff;
+    text-align: center;
+    padding: 30px 15px;
+    font-size: 0.85rem;
+}
+
+footer p + p {
+    margin-top: 5px;
+    color: #c4b5fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------DñResp------*/
+
+@media (max-width: 600px) {
+
+    .cabecera {
+        padding: 55px 20px;
+    }
+
+    .contenedor {
+        margin: 35px auto;
+        padding: 0 18px;
+    }
+
+    .rejilla {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .tarjeta {
+        padding: 16px;
+    }
+
+    .titulo-bloque h2 {
+        font-size: 1.35rem;
+    }
+}

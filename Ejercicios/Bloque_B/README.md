@@ -1,1 +1,3 @@
 BLOQUE B · DATOS, CONSOLA Y ENTRADA DE INFORMACIÓN
+
+Como habrá notado, no todos tienen css aplicado, esto, junto a hay dos grandes bloques de division. Se debe a una herencia de como era el trabajo en un inicio, un practica de estudio de un solo index de preubas comentando y descomentado, entonces, al re-organizar para entregar vi que no era necesario ciertos añadidos para resoluciones que se podian dar perfectamnente en consola.
